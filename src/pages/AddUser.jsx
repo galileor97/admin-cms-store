@@ -69,7 +69,7 @@ const AddUser = () => {
                     </div>
                     <div className="relative flex items-center sm:col-span-2">
                         <label className="text-[13px] bg-white text-black absolute px-2 top-[-10px] left-[18px]">Phone Number</label>
-                        <input value={phone} onChange={(e) => setPhone(e.target.value)} type="number" placeholder="Enter your phone"
+                        <input value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} type="number" placeholder="Enter your phone"
                             className="px-4 py-3.5 bg-white text-black w-full text-sm border-2 border-gray-100 focus:border-blue-500 rounded-full outline-none" />
                     </div>
                     <div className="relative flex items-center sm:col-span-2">
